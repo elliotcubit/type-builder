@@ -1,0 +1,4 @@
+services.ldap.allows_anonymous_bind	boolean	Ability to connect with anonymous bind (empty username and password)
+services.ldap.attributes.name	text	Name of the LDAP attribute in the root DN
+services.ldap.attributes.values	text	Values for the respective LDAP attribute
+services.ldap.resultcode	unsigned_long	Result or error code returned by LDAP instance upon bind

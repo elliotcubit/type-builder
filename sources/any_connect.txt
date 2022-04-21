@@ -1,0 +1,5 @@
+services.any_connect.aggregate_auth_version	integer	Version number indicated by the response for config-auth exchange
+services.any_connect.auth_methods	text	Supported methods for users to enter credentials for this VPN
+services.any_connect.groups	text	List of groups a user can authenticate with to use this VPN
+services.any_connect.raw	text	XML content of the config-auth response
+services.any_connect.response_type	text	Type of the response packet received after initializing the config-auth exchange

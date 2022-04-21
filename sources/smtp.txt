@@ -1,0 +1,3 @@
+services.smtp.banner	text	The STMP banner.
+services.smtp.ehlo	text	The server's response to the EHLO command.
+services.smtp.start_tls	text	The server's response to the STARTTLS command.

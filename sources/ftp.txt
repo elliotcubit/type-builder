@@ -1,0 +1,6 @@
+services.ftp.auth_ssl_response	text	
+services.ftp.auth_tls_response	text	
+services.ftp.banner	text	
+services.ftp.implicit_tls	boolean	
+services.ftp.status_code	integer	
+services.ftp.status_meaning	text

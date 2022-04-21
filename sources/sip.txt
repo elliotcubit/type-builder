@@ -1,0 +1,4 @@
+services.sip.code	integer	
+services.sip.server	text	Server software reported by service
+services.sip.status	text	
+services.sip.version	text	SIP version

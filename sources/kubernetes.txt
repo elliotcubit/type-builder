@@ -1,0 +1,34 @@
+services.kubernetes.endpoints.name	text	
+services.kubernetes.endpoints.self_link	text	
+services.kubernetes.endpoints.subsets.addresses.hostname	text	
+services.kubernetes.endpoints.subsets.addresses.ip	ip	
+services.kubernetes.endpoints.subsets.addresses.node_name	text	
+services.kubernetes.endpoints.subsets.ports.name	text	
+services.kubernetes.endpoints.subsets.ports.port	unsigned_long	
+services.kubernetes.endpoints.subsets.ports.protocol	text	
+services.kubernetes.kubernetes_dashboard_found	boolean	True if the dashboard is running and accessible
+services.kubernetes.nodes.addresses.address	keyword	Node address, IP/URL.
+services.kubernetes.nodes.addresses.address_type	text	Node address type, one of Hostname, ExternalIP or InternalIP.
+services.kubernetes.nodes.architecture	text	The Architecture reported by the node.
+services.kubernetes.nodes.container_runtime_version	text	ContainerRuntime Version reported by the node through runtime remote API (e.g. docker://1.5.0).
+services.kubernetes.nodes.images	text	List of container images on this node
+services.kubernetes.nodes.kernel_version	text	Kernel Version reported by the node from 'uname -r' (e.g. 3.16.0-0.bpo.4-amd64).
+services.kubernetes.nodes.kube_proxy_version	text	KubeProxy Version reported by the node.
+services.kubernetes.nodes.kubelet_version	text	Kubelet Version reported by the node.
+services.kubernetes.nodes.name	text	
+services.kubernetes.nodes.operating_system	text	The Operating System reported by the node.
+services.kubernetes.nodes.os_image	text	OS Image reported by the node from /etc/os-release (e.g. Debian GNU/Linux 7 (wheezy)).
+services.kubernetes.pod_names	text	
+services.kubernetes.roles.name	text	
+services.kubernetes.roles.rules.api_groups	text	APIGroups is the name of the APIGroup that contains the resources. If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed.
+services.kubernetes.roles.rules.resources	text	Resources is a list of resources this rule applies to. ResourceAll represents all resources
+services.kubernetes.roles.rules.verbs	text	Verbs is a list of Verbs that apply to ALL the ResourceKinds and AttributeRestrictions contained in this rule. VerbAll represents all kinds.
+services.kubernetes.version_info.build_date	text	Date version was built.
+services.kubernetes.version_info.compiler	text	Go Compiler used
+services.kubernetes.version_info.git_commit	text	Git commit version built from.
+services.kubernetes.version_info.git_tree_state	text	State of the tree when built.
+services.kubernetes.version_info.git_version	text	
+services.kubernetes.version_info.go_version	text	Version of GO used to build version.
+services.kubernetes.version_info.major	text	Kubernetes major version
+services.kubernetes.version_info.minor	text	Kubernetes minor version
+services.kubernetes.version_info.platform	text	Platform compiled for

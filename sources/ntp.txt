@@ -1,0 +1,7 @@
+services.ntp.get_time_header.leap_indicator	unsigned_long	
+services.ntp.get_time_header.mode	unsigned_long	
+services.ntp.get_time_header.poll	integer	
+services.ntp.get_time_header.precision	integer	
+services.ntp.get_time_header.reference_id	text	
+services.ntp.get_time_header.stratum	unsigned_long	
+services.ntp.get_time_header.version	unsigned_long

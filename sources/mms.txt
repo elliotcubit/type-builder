@@ -1,0 +1,3 @@
+services.mms.model	text	
+services.mms.revision	text	
+services.mms.vendor	text

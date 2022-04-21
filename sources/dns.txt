@@ -1,0 +1,16 @@
+services.dns.additionals.name	text	
+services.dns.additionals.response	text	
+services.dns.answers.name	text	
+services.dns.answers.response	text	
+services.dns.authorities.name	text	
+services.dns.authorities.response	text	
+services.dns.edns.do	boolean	
+services.dns.edns.options	text	
+services.dns.edns.udp	unsigned_long	
+services.dns.edns.version	unsigned_long	
+services.dns.questions.name	text	
+services.dns.questions.response	text	
+services.dns.r_code	text	
+services.dns.resolves_correctly	boolean	
+services.dns.server_type	text	
+services.dns.version	text

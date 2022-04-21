@@ -1,0 +1,15 @@
+services.mssql.encrypt_mode	text	The negotiated ENCRYPT_MODE with the server
+services.mssql.instance_name	text	
+services.mssql.prelogin_options.encrypt_mode	text	
+services.mssql.prelogin_options.fed_auth_required	boolean	
+services.mssql.prelogin_options.instance	text	
+services.mssql.prelogin_options.mars	boolean	
+services.mssql.prelogin_options.nonce	text	
+services.mssql.prelogin_options.server_version.build_number	unsigned_long	
+services.mssql.prelogin_options.server_version.major	unsigned_long	
+services.mssql.prelogin_options.server_version.minor	unsigned_long	
+services.mssql.prelogin_options.thread_id	unsigned_long	
+services.mssql.prelogin_options.trace_id	text	
+services.mssql.prelogin_options.unknown.key	unsigned_long	
+services.mssql.prelogin_options.unknown.value	text	
+services.mssql.version	text	

@@ -1,0 +1,2 @@
+services.imap.banner	text	The IMAP banner.
+services.imap.start_tls	text	The server's response to the STARTTLS command.

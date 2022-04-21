@@ -1,0 +1,14 @@
+services.s7.copyright	text	
+services.s7.cpu_profile	text	
+services.s7.firmware	text	
+services.s7.hardware	text	
+services.s7.location	text	
+services.s7.memory_serial_number	text	
+services.s7.module	text	
+services.s7.module_id	text	
+services.s7.module_type	text	
+services.s7.oem_id	text	
+services.s7.plant_id	text	
+services.s7.reserved_for_os	text	
+services.s7.serial_number	text	
+services.s7.system	text

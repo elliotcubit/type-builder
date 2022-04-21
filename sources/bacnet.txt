@@ -1,0 +1,9 @@
+services.bacnet.application_software_revision	text	
+services.bacnet.description	text	
+services.bacnet.firmware_revision	text	
+services.bacnet.instance_number	unsigned_long	
+services.bacnet.location	text	
+services.bacnet.model_name	text	
+services.bacnet.object_name	text	
+services.bacnet.vendor_id	unsigned_long	
+services.bacnet.vendor_name	text

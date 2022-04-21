@@ -1,0 +1,8 @@
+services.memcached.ascii_binding_protocol_enabled	boolean	
+services.memcached.binary_binding_protocol_enabled	boolean	
+services.memcached.responds_to_udp	boolean	
+services.memcached.stats.auth_enabled_sasl	boolean	
+services.memcached.stats.libevent	text	
+services.memcached.stats.other.key	text	
+services.memcached.stats.other.value	text	
+services.memcached.version	text

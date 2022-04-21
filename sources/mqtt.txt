@@ -1,0 +1,5 @@
+services.mqtt.connection_ack_raw	text	Raw CONNACK response packet
+services.mqtt.connection_ack_return.raw	unsigned_long	Raw connect status value
+services.mqtt.connection_ack_return.return_value	text	Connection status
+services.mqtt.subscription_ack_return.raw	unsigned_long	Raw subscription response value
+services.mqtt.subscription_ack_return.return_value	text	Subscription response

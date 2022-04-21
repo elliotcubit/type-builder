@@ -1,0 +1,6 @@
+services.coap.code	text	
+services.coap.message_id	unsigned_long	
+services.coap.message_type	text	
+services.coap.payload	text	
+services.coap.token	text	
+services.coap.version	unsigned_long

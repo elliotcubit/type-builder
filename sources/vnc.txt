@@ -1,0 +1,23 @@
+services.vnc.connection_failed_reason	text	If server terminates handshake, the reason offered (if any)
+services.vnc.desktop_name	text	Desktop name provided by the server, capped at 255 bytes
+services.vnc.pixel_encoding.name	text	
+services.vnc.pixel_encoding.value	integer	
+services.vnc.screen_info.height	unsigned_long	
+services.vnc.screen_info.name_len	unsigned_long	
+services.vnc.screen_info.pixel_format.big_endian	boolean	If pixel RGB data are in big-endian
+services.vnc.screen_info.pixel_format.bits_per_pixel	unsigned_long	How many bits in a single full pixel datum. Valid values are: 8, 16, 32
+services.vnc.screen_info.pixel_format.blue_max	unsigned_long	Max value of blue pixel
+services.vnc.screen_info.pixel_format.blue_shift	unsigned_long	How many bits to right shift a pixel datum to get blue bits in lsb
+services.vnc.screen_info.pixel_format.depth	unsigned_long	Color depth
+services.vnc.screen_info.pixel_format.green_max	unsigned_long	Max value of green pixel
+services.vnc.screen_info.pixel_format.green_shift	unsigned_long	How many bits to right shift a pixel datum to get green bits in lsb
+services.vnc.screen_info.pixel_format.padding1	unsigned_long	
+services.vnc.screen_info.pixel_format.padding2	unsigned_long	
+services.vnc.screen_info.pixel_format.padding3	unsigned_long	
+services.vnc.screen_info.pixel_format.red_max	unsigned_long	Max value of red pixel
+services.vnc.screen_info.pixel_format.red_shift	unsigned_long	How many bits to right shift a pixel datum to get red bits in lsb
+services.vnc.screen_info.pixel_format.true_color	boolean	If false, color maps are used
+services.vnc.screen_info.width	unsigned_long	
+services.vnc.security_types.name	text	
+services.vnc.security_types.value	integer	
+services.vnc.version	text	

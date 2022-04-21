@@ -1,0 +1,36 @@
+services.smb.group_name	text	Default group name
+services.smb.has_ntlm	boolean	Server supports the NTLM authentication method
+services.smb.native_os	text	Server-identified operating system
+services.smb.negotiation_log.authentication_types	text	
+services.smb.negotiation_log.capabilities	unsigned_long	
+services.smb.negotiation_log.dialect_revision	unsigned_long	
+services.smb.negotiation_log.header_log.command	unsigned_long	
+services.smb.negotiation_log.header_log.credits	unsigned_long	
+services.smb.negotiation_log.header_log.flags	unsigned_long	
+services.smb.negotiation_log.header_log.protocol_id	text	
+services.smb.negotiation_log.header_log.status	unsigned_long	
+services.smb.negotiation_log.security_mode	unsigned_long	
+services.smb.negotiation_log.server_guid	text	
+services.smb.negotiation_log.server_start_time	unsigned_long	
+services.smb.negotiation_log.system_time	unsigned_long	
+services.smb.ntlm	text	Native LAN manager
+services.smb.session_setup_log.header_log.command	unsigned_long	
+services.smb.session_setup_log.header_log.credits	unsigned_long	
+services.smb.session_setup_log.header_log.flags	unsigned_long	
+services.smb.session_setup_log.header_log.protocol_id	text	
+services.smb.session_setup_log.header_log.status	unsigned_long	
+services.smb.session_setup_log.negotiate_flags	unsigned_long	
+services.smb.session_setup_log.setup_flags	unsigned_long	
+services.smb.session_setup_log.target_name	text	
+services.smb.smb_capabilities.smb_dfs_support	boolean	Server supports Distributed File System
+services.smb.smb_capabilities.smb_directory_leasing_support	boolean	Server supports directory leasing
+services.smb.smb_capabilities.smb_encryption_support	boolean	Server supports encryption
+services.smb.smb_capabilities.smb_leasing_support	boolean	Server supports Leasing
+services.smb.smb_capabilities.smb_multichan_support	boolean	Server supports multiple channels per session
+services.smb.smb_capabilities.smb_multicredit_support	boolean	Server supports multi-credit operations
+services.smb.smb_capabilities.smb_persistent_handle_support	boolean	Server supports persistent handles
+services.smb.smb_version.major	unsigned_long	Major version
+services.smb.smb_version.minor	unsigned_long	Minor version
+services.smb.smb_version.revision	unsigned_long	Protocol Revision
+services.smb.smb_version.version_string	text	Full SMB Version String
+services.smb.smbv1_support	boolean	

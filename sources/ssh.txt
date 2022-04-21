@@ -1,0 +1,43 @@
+services.ssh.algorithm_selection.client_to_server_alg_group.cipher	text	
+services.ssh.algorithm_selection.client_to_server_alg_group.compression	text	
+services.ssh.algorithm_selection.client_to_server_alg_group.mac	text	
+services.ssh.algorithm_selection.host_key_algorithm	text	
+services.ssh.algorithm_selection.kex_algorithm	text	
+services.ssh.algorithm_selection.server_to_client_alg_group.cipher	text	
+services.ssh.algorithm_selection.server_to_client_alg_group.compression	text	
+services.ssh.algorithm_selection.server_to_client_alg_group.mac	text	
+services.ssh.endpoint_id.comment	text	
+services.ssh.endpoint_id.protocol_version	text	
+services.ssh.endpoint_id.raw	text	
+services.ssh.endpoint_id.software_version	text	
+services.ssh.kex_init_message.client_to_server_ciphers	text	A list of ssh cipher algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-16 for standard values.
+services.ssh.kex_init_message.client_to_server_compression	text	A list of ssh compression algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-20 for standard values.
+services.ssh.kex_init_message.client_to_server_languages	text	A name-list of language tags in order of preference. As Defined in https://www.ietf.org/rfc/rfc3066.txt.
+services.ssh.kex_init_message.client_to_server_macs	text	A list of ssh MAC algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-18 for standard values.
+services.ssh.kex_init_message.first_kex_follows	boolean	
+services.ssh.kex_init_message.host_key_algorithms	text	Asymmetric key algorithms for the host key supported by the client.
+services.ssh.kex_init_message.kex_algorithms	text	Key exchange algorithms used in the handshake.
+services.ssh.kex_init_message.server_to_client_ciphers	text	A list of ssh cipher algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-16 for standard values.
+services.ssh.kex_init_message.server_to_client_compression	text	A list of ssh compression algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-20 for standard values.
+services.ssh.kex_init_message.server_to_client_languages	text	A name-list of language tags in order of preference. As Defined in https://www.ietf.org/rfc/rfc3066.txt.
+services.ssh.kex_init_message.server_to_client_macs	text	A list of ssh MAC algorithm identifiers, named according to section 6 of https://www.ietf.org/rfc/rfc4251.txt; see https://www.iana.org/assignments/ssh-parameters/ssh-parameters.xhtml#ssh-parameters-18 for standard values.
+services.ssh.server_host_key.certkey_public_key	text	
+services.ssh.server_host_key.dsa_public_key.g	text	
+services.ssh.server_host_key.dsa_public_key.p	text	
+services.ssh.server_host_key.dsa_public_key.q	text	
+services.ssh.server_host_key.dsa_public_key.y	text	
+services.ssh.server_host_key.ecdsa_public_key.b	text	
+services.ssh.server_host_key.ecdsa_public_key.curve	keyword	
+services.ssh.server_host_key.ecdsa_public_key.gx	text	
+services.ssh.server_host_key.ecdsa_public_key.gy	text	
+services.ssh.server_host_key.ecdsa_public_key.length	unsigned_long	
+services.ssh.server_host_key.ecdsa_public_key.n	text	
+services.ssh.server_host_key.ecdsa_public_key.p	text	
+services.ssh.server_host_key.ecdsa_public_key.pub	text	
+services.ssh.server_host_key.ecdsa_public_key.x	text	
+services.ssh.server_host_key.ecdsa_public_key.y	text	
+services.ssh.server_host_key.ed25519_public_key.public_bytes	text	
+services.ssh.server_host_key.fingerprint_sha256	text	
+services.ssh.server_host_key.rsa_public_key.exponent	text	
+services.ssh.server_host_key.rsa_public_key.length	unsigned_long	
+services.ssh.server_host_key.rsa_public_key.modulus	text

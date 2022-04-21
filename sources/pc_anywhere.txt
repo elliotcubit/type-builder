@@ -1,0 +1,4 @@
+services.pc_anywhere.name	text	Workstation Name, with padding bytes removed
+services.pc_anywhere.nr	text	Full 'NR' query response
+services.pc_anywhere.status.in_use	boolean	Workstation is In Use if true, Available if false
+services.pc_anywhere.status.raw	text	Full 'ST' query response

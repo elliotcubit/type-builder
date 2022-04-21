@@ -1,0 +1,6 @@
+services.ike.v1.accepted_proposal	boolean	
+services.ike.v1.notify_message_types	unsigned_long	
+services.ike.v1.vendor_ids	text	
+services.ike.v2.accepted_proposal	boolean	
+services.ike.v2.notify_message_types	unsigned_long	
+services.ike.v2.vendor_ids	text

@@ -1,0 +1,76 @@
+services.prometheus.http_info.headers.accept_patch	text	
+services.prometheus.http_info.headers.accept_ranges	text	
+services.prometheus.http_info.headers.access_control_allow_origin	text	
+services.prometheus.http_info.headers.age	text	
+services.prometheus.http_info.headers.allow	text	
+services.prometheus.http_info.headers.alt_svc	text	
+services.prometheus.http_info.headers.alternate_protocol	text	
+services.prometheus.http_info.headers.cache_control	text	
+services.prometheus.http_info.headers.connection	text	
+services.prometheus.http_info.headers.content_disposition	text	
+services.prometheus.http_info.headers.content_encoding	text	
+services.prometheus.http_info.headers.content_language	text	
+services.prometheus.http_info.headers.content_length	text	
+services.prometheus.http_info.headers.content_location	text	
+services.prometheus.http_info.headers.content_md5	text	
+services.prometheus.http_info.headers.content_range	text	
+services.prometheus.http_info.headers.content_security_policy	text	
+services.prometheus.http_info.headers.content_type	text	
+services.prometheus.http_info.headers.date	text	
+services.prometheus.http_info.headers.etag	text	
+services.prometheus.http_info.headers.expires	text	
+services.prometheus.http_info.headers.last_modified	text	
+services.prometheus.http_info.headers.link	text	
+services.prometheus.http_info.headers.location	text	
+services.prometheus.http_info.headers.p3p	text	
+services.prometheus.http_info.headers.pragma	text	
+services.prometheus.http_info.headers.proxy_agent	text	
+services.prometheus.http_info.headers.proxy_authenticate	text	
+services.prometheus.http_info.headers.public_key_pins	text	
+services.prometheus.http_info.headers.referer	text	
+services.prometheus.http_info.headers.refresh	text	
+services.prometheus.http_info.headers.retry_after	text	
+services.prometheus.http_info.headers.server	text	
+services.prometheus.http_info.headers.set_cookie	text	
+services.prometheus.http_info.headers.status	text	
+services.prometheus.http_info.headers.strict_transport_security	text	
+services.prometheus.http_info.headers.trailer	text	
+services.prometheus.http_info.headers.transfer_encoding	text	
+services.prometheus.http_info.headers.unknown.name	text	
+services.prometheus.http_info.headers.unknown.value	text	
+services.prometheus.http_info.headers.upgrade	text	
+services.prometheus.http_info.headers.vary	text	
+services.prometheus.http_info.headers.via	text	
+services.prometheus.http_info.headers.warning	text	
+services.prometheus.http_info.headers.www_authenticate	text	
+services.prometheus.http_info.headers.x_content_duration	text	
+services.prometheus.http_info.headers.x_content_security_policy	text	
+services.prometheus.http_info.headers.x_content_type_options	text	
+services.prometheus.http_info.headers.x_forwarded_for	text	
+services.prometheus.http_info.headers.x_frame_options	text	
+services.prometheus.http_info.headers.x_powered_by	text	
+services.prometheus.http_info.headers.x_real_ip	text	
+services.prometheus.http_info.headers.x_ua_compatible	text	
+services.prometheus.http_info.headers.x_webkit_csp	text	
+services.prometheus.http_info.headers.x_xss_protection	text	
+services.prometheus.http_info.status	text	
+services.prometheus.http_info.status_code	integer	
+services.prometheus.response.active_targets.discovered_labels.address	text	Address of target.
+services.prometheus.response.active_targets.discovered_labels.job	text	Job of target.
+services.prometheus.response.active_targets.discovered_labels.metrics_path	text	Path to metrics of target.
+services.prometheus.response.active_targets.discovered_labels.scheme	text	URL scheme.
+services.prometheus.response.active_targets.health	text	Whether target is up or down.
+services.prometheus.response.active_targets.labels.instance	text	Instance after relabelling has occurred.
+services.prometheus.response.active_targets.labels.job	text	Job of target after relabelling has occurred.
+services.prometheus.response.active_targets.last_error	text	Last error that occurred within target.
+services.prometheus.response.active_targets.last_scrape	text	Last time Prometheus scraped target.
+services.prometheus.response.active_targets.scrape_url	text	URL that Prometheus scraped.
+services.prometheus.response.all_versions	text	List of the versions of everything that Prometheus finds i.e., version of Prometheus, Go, Node, cAdvisor, etc.
+services.prometheus.response.dropped_targets.address	text	Address of target.
+services.prometheus.response.dropped_targets.job	text	Job of target.
+services.prometheus.response.dropped_targets.metrics_path	text	Path to metrics of target.
+services.prometheus.response.dropped_targets.scheme	text	URL scheme.
+services.prometheus.response.go_versions	text	List of the versions of Go.
+services.prometheus.response.prometheus_versions.go_version	text	Version of Go used to build Prometheus.
+services.prometheus.response.prometheus_versions.revision	text	Revision of Prometheus.
+services.prometheus.response.prometheus_versions.version	text	Version of Prometheus.

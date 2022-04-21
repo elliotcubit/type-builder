@@ -1,0 +1,2 @@
+services.openvpn.accepts_v1	boolean	
+services.openvpn.accepts_v2	boolean

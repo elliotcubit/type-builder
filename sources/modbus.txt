@@ -1,0 +1,13 @@
+services.modbus.exception_response.exception_function	unsigned_long	
+services.modbus.exception_response.exception_type	unsigned_long	
+services.modbus.function	unsigned_long	
+services.modbus.mei_response.conformity_level	long	
+services.modbus.mei_response.more_follows	boolean	
+services.modbus.mei_response.objects.model_name	text	
+services.modbus.mei_response.objects.product_code	text	
+services.modbus.mei_response.objects.product_name	text	
+services.modbus.mei_response.objects.revision	text	
+services.modbus.mei_response.objects.user_application_name	text	
+services.modbus.mei_response.objects.vendor	text	
+services.modbus.mei_response.objects.vendor_url	text	
+services.modbus.unit_id	long

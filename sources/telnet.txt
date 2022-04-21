@@ -1,0 +1,9 @@
+services.telnet.banner	text	
+services.telnet.do.key	unsigned_long	
+services.telnet.do.value	text	
+services.telnet.dont.key	unsigned_long	
+services.telnet.dont.value	text	
+services.telnet.will.key	unsigned_long	
+services.telnet.will.value	text	
+services.telnet.wont.key	unsigned_long	
+services.telnet.wont.value	text

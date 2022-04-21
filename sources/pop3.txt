@@ -1,0 +1,2 @@
+services.pop3.banner	text	The POP3 banner.
+services.pop3.start_tls	text	The server's response to the STARTTLS command.

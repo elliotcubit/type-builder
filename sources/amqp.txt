@@ -1,0 +1,7 @@
+services.amqp.explicit_tls	boolean	Connected via a TLS connection after initial handshake
+services.amqp.implicit_tls	boolean	Connected via a TLS wrapped connection (AMQPS)
+services.amqp.protocol_id.id	unsigned_long	
+services.amqp.protocol_id.name	text	
+services.amqp.version.major	unsigned_long	
+services.amqp.version.minor	unsigned_long	
+services.amqp.version.revision	unsigned_long

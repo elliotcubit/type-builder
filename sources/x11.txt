@@ -1,0 +1,4 @@
+services.x11.refusal_reason	text	
+services.x11.requires_authentication	boolean	
+services.x11.vendor	text	
+services.x11.version	text

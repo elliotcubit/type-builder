@@ -1,0 +1,15 @@
+services.pptp.bearer_message.code	unsigned_long	
+services.pptp.bearer_message.meaning	text	
+services.pptp.error_message.code	unsigned_long	
+services.pptp.error_message.meaning	text	
+services.pptp.firmware.major	unsigned_long	
+services.pptp.firmware.minor	unsigned_long	
+services.pptp.framing_message.code	unsigned_long	
+services.pptp.framing_message.meaning	text	
+services.pptp.hostname	text	
+services.pptp.maximum_channels	unsigned_long	
+services.pptp.protocol.major	unsigned_long	
+services.pptp.protocol.minor	unsigned_long	
+services.pptp.result_message.code	unsigned_long	
+services.pptp.result_message.meaning	text	
+services.pptp.vendor	text

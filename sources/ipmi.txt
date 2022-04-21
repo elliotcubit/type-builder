@@ -1,0 +1,45 @@
+services.ipmi.capabilities.auth_status.anonymous_login_enabled	boolean	If true, the server allows anonymous login.
+services.ipmi.capabilities.auth_status.auth_each_message	boolean	If true, each message must be authenticated.
+services.ipmi.capabilities.auth_status.has_anonymous_users	boolean	If true, the server has anonymous users.
+services.ipmi.capabilities.auth_status.has_named_users	boolean	If true, the server supports named users.
+services.ipmi.capabilities.auth_status.two_key_login_required	boolean	The KG field.
+services.ipmi.capabilities.auth_status.user_auth_disabled	boolean	If true, user authentication is disabled.
+services.ipmi.capabilities.channel_number	integer	The response channel number
+services.ipmi.capabilities.completion_code.name	text	The human-readable name of the code
+services.ipmi.capabilities.completion_code.raw	integer	The raw completion code
+services.ipmi.capabilities.extended_capabilities.supports_ipmi_v1_5	boolean	True if IPMI v1.5 is supported
+services.ipmi.capabilities.extended_capabilities.supports_ipmi_v2_0	boolean	True if IPMI v2.0 is supported
+services.ipmi.capabilities.oem_data	integer	The OEM-specific data
+services.ipmi.capabilities.oem_id	text	The 3-byte OEM identifier
+services.ipmi.capabilities.supported_auth_types.extended	boolean	If true, the extended capabilities are present.
+services.ipmi.capabilities.supported_auth_types.md2	boolean	True if the MD2 AuthType is supported.
+services.ipmi.capabilities.supported_auth_types.md5	boolean	True if the MD5 AuthType is supported.
+services.ipmi.capabilities.supported_auth_types.none	boolean	True if the None AuthType is supported.
+services.ipmi.capabilities.supported_auth_types.oem_proprietary	boolean	True if the OEM Proprietary AuthType is supported
+services.ipmi.capabilities.supported_auth_types.password	boolean	True if the Password AuthType is supported.
+services.ipmi.capabilities.supported_auth_types.raw	integer	The raw byte, with the bit mask etc
+services.ipmi.command_payload.checksum_error	boolean	This is set to true if the values of chk1 / chk2 do not match the command data
+services.ipmi.command_payload.data	text	The raw data. On success, this should be the value of the GetAuthenticationCapabilities resopnse
+services.ipmi.command_payload.ipmi_command_number.name	text	The human-readable name of the cmd + NetFn
+services.ipmi.command_payload.ipmi_command_number.raw	integer	The raw value of the cmd value
+services.ipmi.command_payload.network_function_code.logical_unit_number.name	text	The human-readable name of the LUN
+services.ipmi.command_payload.network_function_code.logical_unit_number.raw	integer	The value of the LUN (3 bits)
+services.ipmi.command_payload.network_function_code.net_fn.is_request	boolean	True if the least-significant bit is zero
+services.ipmi.command_payload.network_function_code.net_fn.is_response	boolean	True if the least-significant bit is one
+services.ipmi.command_payload.network_function_code.net_fn.name	text	The human-readable name of the NetFn
+services.ipmi.command_payload.network_function_code.net_fn.raw	integer	The raw value of the NetFn (6 bits, least significant indicates request/response)
+services.ipmi.command_payload.network_function_code.net_fn.value	integer	The normalized value of the NetFn (i.e. raw & 0xfe, so it is always even)
+services.ipmi.command_payload.network_function_code.raw	integer	The raw value of the (NetFn << 2) | LUN
+services.ipmi.command_payload.requestor_sequence_number	integer	The request sequence number.
+services.ipmi.raw	text	The raw data returned by the server
+services.ipmi.rmcp_header.message_class.class	integer	Just the class part of the byte (lower 5 bits of raw)
+services.ipmi.rmcp_header.message_class.is_ack	boolean	True if the message is an acknowledgment to a previous message.
+services.ipmi.rmcp_header.message_class.name	text	The human-readable name of the message class
+services.ipmi.rmcp_header.message_class.raw	integer	The raw message class byte.
+services.ipmi.rmcp_header.sequence_number	integer	Sequence number of this packet in the session.
+services.ipmi.rmcp_header.version	integer	The version. This scanner supports version 6.
+services.ipmi.session_header.auth_code	text	The 16-byte authentication code; not present if auth_type is None.
+services.ipmi.session_header.auth_type.name	text	The raw value of the auth_type
+services.ipmi.session_header.auth_type.raw	integer	The raw value of the auth_type
+services.ipmi.session_header.session_id	long	The ID of this sessiod.
+services.ipmi.session_header.session_sequence_number	long	The session sequence number of this packet in the session

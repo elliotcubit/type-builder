@@ -1,0 +1,19 @@
+services.mongodb.build_info.build_environment.cc	text	
+services.mongodb.build_info.build_environment.cc_flags	text	
+services.mongodb.build_info.build_environment.cxx	text	
+services.mongodb.build_info.build_environment.cxx_flags	text	
+services.mongodb.build_info.build_environment.dist_arch	text	
+services.mongodb.build_info.build_environment.dist_mod	text	
+services.mongodb.build_info.build_environment.link_flags	text	
+services.mongodb.build_info.build_environment.target_arch	text	
+services.mongodb.build_info.build_environment.target_os	text	
+services.mongodb.build_info.git_version	text	Version of mongodb server
+services.mongodb.build_info.version	text	Version of mongodb server
+services.mongodb.is_master.is_master	boolean	
+services.mongodb.is_master.logical_session_timeout_minutes	integer	
+services.mongodb.is_master.max_bson_object_size	integer	
+services.mongodb.is_master.max_message_size_bytes	integer	
+services.mongodb.is_master.max_wire_version	integer	
+services.mongodb.is_master.max_write_batch_size	integer	
+services.mongodb.is_master.min_wire_version	integer	
+services.mongodb.is_master.read_only	boolean	

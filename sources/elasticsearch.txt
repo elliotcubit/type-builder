@@ -1,0 +1,129 @@
+services.elasticsearch.http_info.headers.accept_patch	text	
+services.elasticsearch.http_info.headers.accept_ranges	text	
+services.elasticsearch.http_info.headers.access_control_allow_origin	text	
+services.elasticsearch.http_info.headers.age	text	
+services.elasticsearch.http_info.headers.allow	text	
+services.elasticsearch.http_info.headers.alt_svc	text	
+services.elasticsearch.http_info.headers.alternate_protocol	text	
+services.elasticsearch.http_info.headers.cache_control	text	
+services.elasticsearch.http_info.headers.connection	text	
+services.elasticsearch.http_info.headers.content_disposition	text	
+services.elasticsearch.http_info.headers.content_encoding	text	
+services.elasticsearch.http_info.headers.content_language	text	
+services.elasticsearch.http_info.headers.content_length	text	
+services.elasticsearch.http_info.headers.content_location	text	
+services.elasticsearch.http_info.headers.content_md5	text	
+services.elasticsearch.http_info.headers.content_range	text	
+services.elasticsearch.http_info.headers.content_security_policy	text	
+services.elasticsearch.http_info.headers.content_type	text	
+services.elasticsearch.http_info.headers.date	text	
+services.elasticsearch.http_info.headers.etag	text	
+services.elasticsearch.http_info.headers.expires	text	
+services.elasticsearch.http_info.headers.last_modified	text	
+services.elasticsearch.http_info.headers.link	text	
+services.elasticsearch.http_info.headers.location	text	
+services.elasticsearch.http_info.headers.p3p	text	
+services.elasticsearch.http_info.headers.pragma	text	
+services.elasticsearch.http_info.headers.proxy_agent	text	
+services.elasticsearch.http_info.headers.proxy_authenticate	text	
+services.elasticsearch.http_info.headers.public_key_pins	text	
+services.elasticsearch.http_info.headers.referer	text	
+services.elasticsearch.http_info.headers.refresh	text	
+services.elasticsearch.http_info.headers.retry_after	text	
+services.elasticsearch.http_info.headers.server	text	
+services.elasticsearch.http_info.headers.set_cookie	text	
+services.elasticsearch.http_info.headers.status	text	
+services.elasticsearch.http_info.headers.strict_transport_security	text	
+services.elasticsearch.http_info.headers.trailer	text	
+services.elasticsearch.http_info.headers.transfer_encoding	text	
+services.elasticsearch.http_info.headers.unknown.name	text	
+services.elasticsearch.http_info.headers.unknown.value	text	
+services.elasticsearch.http_info.headers.upgrade	text	
+services.elasticsearch.http_info.headers.vary	text	
+services.elasticsearch.http_info.headers.via	text	
+services.elasticsearch.http_info.headers.warning	text	
+services.elasticsearch.http_info.headers.www_authenticate	text	
+services.elasticsearch.http_info.headers.x_content_duration	text	
+services.elasticsearch.http_info.headers.x_content_security_policy	text	
+services.elasticsearch.http_info.headers.x_content_type_options	text	
+services.elasticsearch.http_info.headers.x_forwarded_for	text	
+services.elasticsearch.http_info.headers.x_frame_options	text	
+services.elasticsearch.http_info.headers.x_powered_by	text	
+services.elasticsearch.http_info.headers.x_real_ip	text	
+services.elasticsearch.http_info.headers.x_ua_compatible	text	
+services.elasticsearch.http_info.headers.x_webkit_csp	text	
+services.elasticsearch.http_info.headers.x_xss_protection	text	
+services.elasticsearch.http_info.status	text	
+services.elasticsearch.http_info.status_code	integer	
+services.elasticsearch.node_info.cluster_combined_info.filesystem.available	text	Human-friendly available size
+services.elasticsearch.node_info.cluster_combined_info.filesystem.available_in_bytes	unsigned_long	Available size in bytes
+services.elasticsearch.node_info.cluster_combined_info.filesystem.free	text	Human-friendly free size
+services.elasticsearch.node_info.cluster_combined_info.filesystem.free_in_bytes	unsigned_long	Free size in bytes
+services.elasticsearch.node_info.cluster_combined_info.filesystem.total	text	Human-friendly total size
+services.elasticsearch.node_info.cluster_combined_info.filesystem.total_in_bytes	unsigned_long	Total size in bytes
+services.elasticsearch.node_info.cluster_combined_info.indices.count	unsigned_long	Total number of indices with shards assigned to selected nodes
+services.elasticsearch.node_info.cluster_combined_info.indices.docs.count	unsigned_long	Total number of non-deleted documents across all primary shards assigned to selected nodes
+services.elasticsearch.node_info.cluster_combined_info.indices.docs.deleted	unsigned_long	Total number of deleted documents across all primary shards assigned to selected nodes
+services.elasticsearch.node_info.cluster_combined_info.indices.store.reserved_in_bytes	unsigned_long	A prediction, in bytes, of how much larger the shard stores will eventually grow due to ongoing peer recoveries, restoring snapshots, and similar activities
+services.elasticsearch.node_info.cluster_combined_info.indices.store.size_in_bytes	unsigned_long	Total size, in bytes, of all shards assigned to selected nodes
+services.elasticsearch.node_info.cluster_combined_info.name	text	
+services.elasticsearch.node_info.cluster_combined_info.status	text	
+services.elasticsearch.node_info.cluster_combined_info.timestamp	unsigned_long	
+services.elasticsearch.node_info.cluster_combined_info.uuid	text	
+services.elasticsearch.node_info.nodes.node_data.build_flavor	text	
+services.elasticsearch.node_info.nodes.node_data.build_hash	text	
+services.elasticsearch.node_info.nodes.node_data.build_type	text	
+services.elasticsearch.node_info.nodes.node_data.host	text	
+services.elasticsearch.node_info.nodes.node_data.ingest_processors	text	
+services.elasticsearch.node_info.nodes.node_data.ip	ip	
+services.elasticsearch.node_info.nodes.node_data.jvm.gc	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.input_args	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.memory_pools	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.start_time	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.start_time_ms	unsigned_long	
+services.elasticsearch.node_info.nodes.node_data.jvm.version	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.vm_name	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.vm_vendor	text	
+services.elasticsearch.node_info.nodes.node_data.jvm.vm_version	text	
+services.elasticsearch.node_info.nodes.node_data.modules.class_name	text	
+services.elasticsearch.node_info.nodes.node_data.modules.desc	text	
+services.elasticsearch.node_info.nodes.node_data.modules.elastic_version	text	
+services.elasticsearch.node_info.nodes.node_data.modules.ext_plugins	text	
+services.elasticsearch.node_info.nodes.node_data.modules.has_native_ctrl	boolean	
+services.elasticsearch.node_info.nodes.node_data.modules.java_version	text	
+services.elasticsearch.node_info.nodes.node_data.modules.name	text	
+services.elasticsearch.node_info.nodes.node_data.modules.version	text	
+services.elasticsearch.node_info.nodes.node_data.name	text	
+services.elasticsearch.node_info.nodes.node_data.os.allocated_proc	integer	
+services.elasticsearch.node_info.nodes.node_data.os.arch	text	
+services.elasticsearch.node_info.nodes.node_data.os.available_proc	integer	
+services.elasticsearch.node_info.nodes.node_data.os.name	text	
+services.elasticsearch.node_info.nodes.node_data.os.pretty_name	text	
+services.elasticsearch.node_info.nodes.node_data.os.refresh_interval_ms	unsigned_long	
+services.elasticsearch.node_info.nodes.node_data.os.version	text	
+services.elasticsearch.node_info.nodes.node_data.roles	text	
+services.elasticsearch.node_info.nodes.node_data.settings.cluster_name	text	
+services.elasticsearch.node_info.nodes.node_data.settings.node.attr.ml.enabled	text	
+services.elasticsearch.node_info.nodes.node_data.settings.node.attr.ml.machine_memory	text	
+services.elasticsearch.node_info.nodes.node_data.settings.node.attr.ml.max_open_jobs	text	
+services.elasticsearch.node_info.nodes.node_data.settings.node.attr.xpack_installed	text	
+services.elasticsearch.node_info.nodes.node_data.settings.node.name	text	
+services.elasticsearch.node_info.nodes.node_data.thread_pool_list.keep_alive	text	
+services.elasticsearch.node_info.nodes.node_data.thread_pool_list.max	integer	
+services.elasticsearch.node_info.nodes.node_data.thread_pool_list.min	integer	
+services.elasticsearch.node_info.nodes.node_data.thread_pool_list.queue_size	integer	
+services.elasticsearch.node_info.nodes.node_data.total_indexing_buffer	unsigned_long	
+services.elasticsearch.node_info.nodes.node_data.version	text	
+services.elasticsearch.node_info.nodes.node_name	text	
+services.elasticsearch.system_info.cluster_uuid	text	Cluster UUID
+services.elasticsearch.system_info.name	text	Cluster Name
+services.elasticsearch.system_info.tagline	text	Elasticsearch identifying tagline
+services.elasticsearch.system_info.version.build_date	text	
+services.elasticsearch.system_info.version.build_flavor	text	
+services.elasticsearch.system_info.version.build_hash	text	
+services.elasticsearch.system_info.version.build_snapshot	boolean	
+services.elasticsearch.system_info.version.build_type	text	
+services.elasticsearch.system_info.version.lucene_version	text	
+services.elasticsearch.system_info.version.min_idx_compat_ver	text	
+services.elasticsearch.system_info.version.min_wire_compat_ver	text	
+services.elasticsearch.system_info.version.number	text	ES Cluster version

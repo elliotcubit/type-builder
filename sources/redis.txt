@@ -1,0 +1,22 @@
+services.redis.arch_bits	text	The architecture bits (32 or 64) the Redis server used to build.
+services.redis.auth_response	text	The response from the AUTH command, if sent.
+services.redis.build_id	text	The Build ID of the Redis server.
+services.redis.commands	text	The list of commands actually sent to the server, serialized in inline format, like 'PING' or 'AUTH somePassword'.
+services.redis.commands_processed	unsigned_long	The total number of commands processed by the server.
+services.redis.connections_received	unsigned_long	The total number of connections accepted by the server.
+services.redis.gcc_version	text	The version of the GCC compiler used to compile the Redis server.
+services.redis.git_sha1	text	The Sha-1 Git commit hash the Redis server used.
+services.redis.info_response.key	text	
+services.redis.info_response.value	text	
+services.redis.major	unsigned_long	Major is the version's major number.
+services.redis.mem_allocator	text	The memory allocator.
+services.redis.minor	unsigned_long	Minor is the version's major number.
+services.redis.mode	text	The mode the Redis server is running (standalone or cluster), read from the the info_response (if available).
+services.redis.nonexistent_response	text	The response from the NONEXISTENT command.
+services.redis.os	text	The OS the Redis server is running, read from the the info_response (if available).
+services.redis.patch_level	unsigned_long	Patchlevel is the version's patchlevel number.
+services.redis.ping_response	text	The response from the PING command; should either be "PONG" or an authentication error.
+services.redis.quit_response	text	The response to the QUIT command.
+services.redis.raw_command_output.output	text	
+services.redis.uptime	unsigned_long	The number of seconds since Redis server start.
+services.redis.used_memory	unsigned_long	The total number of bytes allocated by Redis using its allocator.
